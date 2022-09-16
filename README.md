@@ -9,3 +9,5 @@
 - [프로젝트 분석 및 기획](https://github.com/SungSeokMin/front-end-practice-learning-from-scenarios/blob/master/2%EC%9E%A5%20-%20%EC%83%88%EB%A1%9C%EC%9A%B4%20%EC%B6%9C%EB%B0%9C/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EB%B6%84%EC%84%9D%20%EB%B0%8F%20%EA%B8%B0%ED%9A%8D.md)
 
 - [Poc vs Prototype](https://github.com/SungSeokMin/front-end-practice-learning-from-scenarios/blob/master/2%EC%9E%A5%20-%20%EC%83%88%EB%A1%9C%EC%9A%B4%20%EC%B6%9C%EB%B0%9C/Poc%20vs%20Prototype.md)
+
+- [SSR vs CSR](https://github.com/SungSeokMin/front-end-practice-learning-from-scenarios/blob/master/2%EC%9E%A5%20-%20%EC%83%88%EB%A1%9C%EC%9A%B4%20%EC%B6%9C%EB%B0%9C/SSR%20vs%20CSR.md)
