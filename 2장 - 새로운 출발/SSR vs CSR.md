@@ -11,3 +11,15 @@
 - Cross linking : 링크가 많이 걸려있는 문서
 - title tag and meta description : html문서 내의 제목과 메타태그를 정교하게 기입
 - URL canonicalization : 유니크한 컨텐츠를 하나의 URL로 정리
+
+# Web vitals
+
+[Web vitals](https://web.dev/vitals/)에서 `사용자 경험의 품질을 최적화하는 것은 웹 사이트의 장기적인 성공의 핵심입니다. 비즈니스 소유자, 마케팅 담당자 또는 개발자에 관계없이 Web Vitals는 사이트 경험을 수량화하고 개선할 기회를 식별하는 데 도움이 될 수 있습니다.` 라고 소개한다.
+
+### 3가지 핵심 내용
+
+- `LCP (Largest Contentful Paint) - 최대 콘텐츠 페인트` : 로딩 성능을 측정
+
+- `FID (First Input Delay) - 최초 입력 지연` : 상호 작용을 측정
+
+- `CSL (Cumulative Layout Shift) - 누적 레이아웃 시프트` : 시각적 안정성을 측정
