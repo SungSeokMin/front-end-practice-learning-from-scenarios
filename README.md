@@ -11,3 +11,5 @@
 - [Poc vs Prototype](https://github.com/SungSeokMin/front-end-practice-learning-from-scenarios/blob/master/2%EC%9E%A5%20-%20%EC%83%88%EB%A1%9C%EC%9A%B4%20%EC%B6%9C%EB%B0%9C/Poc%20vs%20Prototype.md)
 
 - [SSR vs CSR](https://github.com/SungSeokMin/front-end-practice-learning-from-scenarios/blob/master/2%EC%9E%A5%20-%20%EC%83%88%EB%A1%9C%EC%9A%B4%20%EC%B6%9C%EB%B0%9C/SSR%20vs%20CSR.md)
+
+- [SSR PoC](https://github.com/SungSeokMin/front-end-practice-learning-from-scenarios/blob/master/2%EC%9E%A5%20-%20%EC%83%88%EB%A1%9C%EC%9A%B4%20%EC%B6%9C%EB%B0%9C/SSR%20PoC.md)
