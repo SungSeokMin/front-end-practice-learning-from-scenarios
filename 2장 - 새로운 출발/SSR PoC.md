@@ -1,5 +1,7 @@
 # 12shop PoC
 
+## Setup
+
 ### 1. Docker 설치
 
 [Docker 설치하기](https://www.docker.com/)
@@ -59,3 +61,12 @@ GET http://localhost:3000/products HTTP/1.1
   ...
 ]
 ```
+
+## PoC 계획과 목표
+
+### 목표
+
+- Next.js SSR 라우트 구조 확인
+- 페이지별 Meta Taging
+- API Fetching
+- Next.js 기능 목록 체크
