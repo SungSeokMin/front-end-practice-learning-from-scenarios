@@ -64,9 +64,67 @@ GET http://localhost:3000/products HTTP/1.1
 
 ## PoC 계획과 목표
 
-### 목표
-
 - Next.js SSR 라우트 구조 확인
 - 페이지별 Meta Taging
 - API Fetching
 - Next.js 기능 목록 체크
+
+### Next.js SSR 라우트 구조 확인
+
+Next.js는 `file-system` 라우터를 제공한다.
+
+예를들면 아래와 같다.
+
+```js
+pages/index.js -> '/'
+
+pages/blog/index.js -> '/blog'
+
+pages/blog/[id].js -> '/blog/:id'
+```
+
+React에서는 `Link` 태그를 아래와 같이 사용했다면
+
+```js
+import { Link } from 'react-router-dom';
+
+<Link to="/">홈</Link>;
+```
+
+Next.js에서는 아래와 같이 사용한다.
+
+```js
+import { Link } from 'next/link';
+
+<Link href="/">
+  <a>홈</a>
+</Link>;
+```
+
+### 페이지별 Meta Taging
+
+SEO의 강점을 가지고 있는 Next.js는 아래와 같이 meta tag를 작성할 수 있다.
+
+```js
+import { Head } from 'next/head';
+
+<div>
+  <Head>
+    <title>타이틀 입니다.</title>
+    <meat name="description" content="설명입니다."></meat>
+  </Head>
+</div>;
+```
+
+### API Fetching
+
+- server side
+  - getServerSideProps (페이지가 사용자로부터 요청을 받을 때마다 호출된다.)
+  - getStaticProps (애플리케이션이 실행될 때 한 번만 호출된다.)
+- client side
+- API gateway
+
+### Next.js 기능 목록 체크
+
+- Image optimization
+- Font optimization
